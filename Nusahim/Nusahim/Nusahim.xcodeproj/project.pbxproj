@@ -20,6 +20,10 @@
 		C05D2CFF25DFF4440089F19E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05D2CFD25DFF4440089F19E /* HomeViewController.xib */; };
 		C05D2D0125DFF5B80089F19E /* Group 561.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0025DFF5B80089F19E /* Group 561.png */; };
 		C05D2D0325DFFD730089F19E /* dreamstime_xxl_100301981.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0225DFFD730089F19E /* dreamstime_xxl_100301981.jpg */; };
+		C05D2D0825E004620089F19E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0425E004610089F19E /* icon.png */; };
+		C05D2D0925E004620089F19E /* icons-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0525E004610089F19E /* icons-menu.png */; };
+		C05D2D0A25E004620089F19E /* Group 567.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0625E004620089F19E /* Group 567.png */; };
+		C05D2D0B25E004620089F19E /* icons-back.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0725E004620089F19E /* icons-back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		C05D2CFD25DFF4440089F19E /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		C05D2D0025DFF5B80089F19E /* Group 561.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 561.png"; path = "Nusahim/Group 561.png"; sourceTree = "<group>"; };
 		C05D2D0225DFFD730089F19E /* dreamstime_xxl_100301981.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dreamstime_xxl_100301981.jpg; path = Nusahim/dreamstime_xxl_100301981.jpg; sourceTree = "<group>"; };
+		C05D2D0425E004610089F19E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Nusahim/icon.png; sourceTree = "<group>"; };
+		C05D2D0525E004610089F19E /* icons-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons-menu.png"; path = "Nusahim/icons-menu.png"; sourceTree = "<group>"; };
+		C05D2D0625E004620089F19E /* Group 567.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 567.png"; path = "Nusahim/Group 567.png"; sourceTree = "<group>"; };
+		C05D2D0725E004620089F19E /* icons-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons-back.png"; path = "Nusahim/icons-back.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,10 @@
 		AB9E07D225DEA86500EB85A7 = {
 			isa = PBXGroup;
 			children = (
+				C05D2D0625E004620089F19E /* Group 567.png */,
+				C05D2D0425E004610089F19E /* icon.png */,
+				C05D2D0725E004620089F19E /* icons-back.png */,
+				C05D2D0525E004610089F19E /* icons-menu.png */,
 				C05D2D0225DFFD730089F19E /* dreamstime_xxl_100301981.jpg */,
 				C05D2D0025DFF5B80089F19E /* Group 561.png */,
 				AB9E07DD25DEA86600EB85A7 /* Nusahim */,
@@ -247,13 +259,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05D2D0925E004620089F19E /* icons-menu.png in Resources */,
+				C05D2D0A25E004620089F19E /* Group 567.png in Resources */,
 				C05D2CFB25DFF42B0089F19E /* LoginViewController.xib in Resources */,
 				C05D2D0125DFF5B80089F19E /* Group 561.png in Resources */,
 				AB9E07E925DEA86900EB85A7 /* LaunchScreen.storyboard in Resources */,
 				C05D2CFF25DFF4440089F19E /* HomeViewController.xib in Resources */,
+				C05D2D0825E004620089F19E /* icon.png in Resources */,
 				C05D2D0325DFFD730089F19E /* dreamstime_xxl_100301981.jpg in Resources */,
 				AB9E07E625DEA86900EB85A7 /* Assets.xcassets in Resources */,
 				AB9E07E425DEA86600EB85A7 /* Main.storyboard in Resources */,
+				C05D2D0B25E004620089F19E /* icons-back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
