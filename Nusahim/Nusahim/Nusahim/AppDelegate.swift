@@ -12,10 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var loginScreen : LoginViewController?
+    var navController : UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch.    loginScreen = LoginViewController()
+        //----------------------------------------
+        loginScreen = LoginViewController()
+        navController = UINavigationController(rootViewController: loginScreen!)
+        self.navController!.navigationBar.barTintColor = UIColor.white
+        self.navController!.navigationBar.tintColor = UIColor.white
+        //------------------------------------------
+        //------------------------------------------
+        self.window?.rootViewController = navController!
         return true
     }
 
