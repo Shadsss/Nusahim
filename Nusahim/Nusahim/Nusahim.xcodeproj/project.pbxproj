@@ -36,6 +36,7 @@
 		C05D2D0925E004620089F19E /* icons-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0525E004610089F19E /* icons-menu.png */; };
 		C05D2D0A25E004620089F19E /* Group 567.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0625E004620089F19E /* Group 567.png */; };
 		C05D2D0B25E004620089F19E /* icons-back.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0725E004620089F19E /* icons-back.png */; };
+		C05D2D0D25E155DF0089F19E /* icons8-exit-100.png in Resources */ = {isa = PBXBuildFile; fileRef = C05D2D0C25E155DF0089F19E /* icons8-exit-100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		C05D2D0525E004610089F19E /* icons-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons-menu.png"; path = "Nusahim/icons-menu.png"; sourceTree = "<group>"; };
 		C05D2D0625E004620089F19E /* Group 567.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 567.png"; path = "Nusahim/Group 567.png"; sourceTree = "<group>"; };
 		C05D2D0725E004620089F19E /* icons-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons-back.png"; path = "Nusahim/icons-back.png"; sourceTree = "<group>"; };
+		C05D2D0C25E155DF0089F19E /* icons8-exit-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-exit-100.png"; path = "Nusahim/icons8-exit-100.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +123,11 @@
 		AB9E07D225DEA86500EB85A7 = {
 			isa = PBXGroup;
 			children = (
+
 				AB5744E625E15372004B750A /* Layer 2.png */,
+
+				C05D2D0C25E155DF0089F19E /* icons8-exit-100.png */,
+
 				AB5744D825E14009004B750A /* Group 585.png */,
 				AB5744DA25E14009004B750A /* Group 586.png */,
 				AB5744D925E14009004B750A /* user photo.png */,
@@ -304,7 +310,11 @@
 				AB9E07E925DEA86900EB85A7 /* LaunchScreen.storyboard in Resources */,
 				AB5744E125E14514004B750A /* SendRequestViewController.xib in Resources */,
 				C05D2CFF25DFF4440089F19E /* HomeViewController.xib in Resources */,
+
 				AB5744E525E15328004B750A /* LoadingViewController.xib in Resources */,
+
+				C05D2D0D25E155DF0089F19E /* icons8-exit-100.png in Resources */,
+
 				C05D2D0825E004620089F19E /* icon.png in Resources */,
 				AB5744EB25E15808004B750A /* volunteerListViewController.xib in Resources */,
 				AB5744D625E13C7D004B750A /* Group 589.png in Resources */,
