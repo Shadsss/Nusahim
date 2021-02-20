@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SendRequestViewController" customModule="Nusahim" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="هلا وغلا :)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84r-EK-DIs">
+                    <rect key="frame" x="207" y="104" width="187" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="كيف أقدر أساعدك؟" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN2-77-Uym">
+                    <rect key="frame" x="184" y="145.5" width="210" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="highlightedColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="84r-EK-DIs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="1Q6-8s-cbC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TN2-77-Uym" secondAttribute="trailing" constant="20" id="8mO-dv-Zar"/>
+                <constraint firstItem="TN2-77-Uym" firstAttribute="top" secondItem="84r-EK-DIs" secondAttribute="bottom" constant="10" id="ZuT-V2-kiW"/>
+                <constraint firstItem="TN2-77-Uym" firstAttribute="top" secondItem="84r-EK-DIs" secondAttribute="bottom" constant="10" id="lK4-GG-TIg"/>
+                <constraint firstItem="TN2-77-Uym" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="184" id="ncK-FR-K8W"/>
+                <constraint firstItem="84r-EK-DIs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="207" id="pN4-5Y-VCg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="84r-EK-DIs" secondAttribute="trailing" constant="20" id="pYu-ag-J45"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="TN2-77-Uym" secondAttribute="bottom" constant="685" id="taG-kW-Gaq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ims-Gz-Yic">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+</document>

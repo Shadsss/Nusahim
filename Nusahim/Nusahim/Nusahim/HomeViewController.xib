@@ -20,33 +20,24 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-uK-3et">
+                    <rect key="frame" x="70" y="402" width="274" height="51"/>
+                    <color key="backgroundColor" red="0.37038332219999998" green="0.74343961479999998" blue="0.82746642829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="Cw3-qw-oWX"/>
+                        <constraint firstAttribute="width" constant="274" id="lNI-Lr-db3"/>
+                    </constraints>
+                    <state key="normal" title="أبحث عن مساعدة / خدمة">
+                        <color key="titleColor" red="0.99611777069999996" green="0.99997395280000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="helpBtn:" destination="-1" eventType="touchUpInside" id="626-TT-h96"/>
+                    </connections>
+                </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hX9-xk-TIC">
-                    <rect key="frame" x="37" y="381" width="340" height="349"/>
+                    <rect key="frame" x="37" y="463" width="340" height="349"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDz-Rg-UeA">
-                            <rect key="frame" x="20" y="220" width="300" height="52"/>
-                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="300" id="3KB-hU-WVo"/>
-                                <constraint firstAttribute="height" constant="52" id="I46-pP-1fa"/>
-                            </constraints>
-                            <color key="tintColor" red="0.094117647060000004" green="0.12941176469999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
-                            <state key="normal" title="تطوع">
-                                <color key="titleColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-uK-3et">
-                            <rect key="frame" x="20" y="150" width="300" height="49"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="49" id="Cw3-qw-oWX"/>
-                                <constraint firstAttribute="width" constant="300" id="lNI-Lr-db3"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                            <state key="normal" title="طلب خدمة" backgroundImage="Group 561.png">
-                                <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </state>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الرجاء إختيار نوع االحساب" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54o-IL-Dee">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="الرجاء إختيار نوع االحساب" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54o-IL-Dee">
                             <rect key="frame" x="111" y="46" width="185" height="22"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="22" id="yPf-VA-mbm"/>
@@ -55,7 +46,7 @@
                             <color key="textColor" red="0.27058823529999998" green="0.30980392159999998" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="57e-s6-wJD">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="57e-s6-wJD">
                             <rect key="frame" x="297" y="47" width="23" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="23" id="e2V-zg-nqM"/>
@@ -64,27 +55,17 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="gc7-uK-3et" firstAttribute="leading" secondItem="KDz-Rg-UeA" secondAttribute="leading" id="2e8-5q-XSG"/>
-                        <constraint firstItem="gc7-uK-3et" firstAttribute="centerX" secondItem="hX9-xk-TIC" secondAttribute="centerX" id="68Y-at-2lD"/>
                         <constraint firstAttribute="height" constant="349" id="7Sm-Vu-YSU"/>
-                        <constraint firstItem="gc7-uK-3et" firstAttribute="trailing" secondItem="KDz-Rg-UeA" secondAttribute="trailing" id="GII-AF-qm5"/>
                         <constraint firstItem="54o-IL-Dee" firstAttribute="centerY" secondItem="57e-s6-wJD" secondAttribute="centerY" id="HFj-RA-L5b"/>
                         <constraint firstItem="57e-s6-wJD" firstAttribute="top" secondItem="hX9-xk-TIC" secondAttribute="top" constant="47" id="MkU-RI-oWb"/>
-                        <constraint firstItem="57e-s6-wJD" firstAttribute="trailing" secondItem="gc7-uK-3et" secondAttribute="trailing" id="Oqw-Rc-32F"/>
-                        <constraint firstItem="KDz-Rg-UeA" firstAttribute="top" secondItem="gc7-uK-3et" secondAttribute="bottom" constant="21" id="Uhs-is-0Qv"/>
-                        <constraint firstItem="gc7-uK-3et" firstAttribute="leading" secondItem="hX9-xk-TIC" secondAttribute="leading" constant="20" id="XZT-bT-R5t"/>
-                        <constraint firstItem="gc7-uK-3et" firstAttribute="centerY" secondItem="hX9-xk-TIC" secondAttribute="centerY" id="hv5-8d-dYC"/>
                         <constraint firstItem="57e-s6-wJD" firstAttribute="leading" secondItem="54o-IL-Dee" secondAttribute="trailing" constant="1" id="wet-QQ-hJd"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 567.png" translatesAutoresizingMaskIntoConstraints="NO" id="kq5-VQ-vPS">
-                    <rect key="frame" x="87" y="124" width="240" height="136"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="128" id="72G-yh-AyQ"/>
-                    </constraints>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="kq5-VQ-vPS">
+                    <rect key="frame" x="130.5" y="124" width="153" height="153"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نورة عبدالعزيز" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWN-QW-FWk">
-                    <rect key="frame" x="8" y="295" width="398" height="36"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نورة أحمد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWN-QW-FWk">
+                    <rect key="frame" x="8" y="312" width="398" height="36"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="36" id="l8p-Ar-oAt"/>
                     </constraints>
@@ -105,6 +86,19 @@
                         <constraint firstAttribute="width" constant="63" id="yyf-yP-G6V"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDz-Rg-UeA">
+                    <rect key="frame" x="70.5" y="477" width="273" height="51"/>
+                    <color key="backgroundColor" red="0.2792554498" green="0.308409512" blue="0.3804016113" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="273" id="3KB-hU-WVo"/>
+                        <constraint firstAttribute="height" constant="51" id="I46-pP-1fa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                    <color key="tintColor" red="0.094117647060000004" green="0.12941176469999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="أريد أن أتطوع">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -113,7 +107,9 @@
                 <constraint firstItem="hX9-xk-TIC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="5XL-gk-KgF"/>
                 <constraint firstItem="MCa-Kt-eCF" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="7bw-hD-h9k"/>
                 <constraint firstItem="f1N-co-ouq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="9MW-bR-yA4"/>
-                <constraint firstItem="kq5-VQ-vPS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="87" id="IuA-Ok-ZGu"/>
+                <constraint firstItem="KDz-Rg-UeA" firstAttribute="top" secondItem="gc7-uK-3et" secondAttribute="bottom" constant="24" id="AtC-g1-4w3"/>
+                <constraint firstItem="KDz-Rg-UeA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BGA-z1-LgW"/>
+                <constraint firstItem="KDz-Rg-UeA" firstAttribute="top" secondItem="gc7-uK-3et" secondAttribute="bottom" constant="24" id="Jz6-Ib-V4c"/>
                 <constraint firstItem="hWN-QW-FWk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="OJL-M5-GYj"/>
                 <constraint firstItem="hWN-QW-FWk" firstAttribute="centerX" secondItem="hX9-xk-TIC" secondAttribute="centerX" id="ROR-Ms-gJl"/>
                 <constraint firstItem="hWN-QW-FWk" firstAttribute="top" secondItem="kq5-VQ-vPS" secondAttribute="bottom" constant="35" id="UYw-uk-FgQ"/>
@@ -121,19 +117,26 @@
                 <constraint firstItem="kq5-VQ-vPS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WdX-UJ-KI6"/>
                 <constraint firstItem="kq5-VQ-vPS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="YFq-au-OMf"/>
                 <constraint firstItem="hX9-xk-TIC" firstAttribute="top" secondItem="hWN-QW-FWk" secondAttribute="bottom" constant="50" id="bAa-gH-2PI"/>
+                <constraint firstItem="gc7-uK-3et" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fid-o4-3EG"/>
                 <constraint firstItem="f1N-co-ouq" firstAttribute="top" secondItem="MCa-Kt-eCF" secondAttribute="top" id="pAs-h0-DKT"/>
-                <constraint firstItem="kq5-VQ-vPS" firstAttribute="centerX" secondItem="hWN-QW-FWk" secondAttribute="centerX" id="veI-1T-qmT"/>
                 <constraint firstItem="f1N-co-ouq" firstAttribute="bottom" secondItem="MCa-Kt-eCF" secondAttribute="bottom" id="wLk-n3-CoP"/>
+                <constraint firstItem="gc7-uK-3et" firstAttribute="top" secondItem="hWN-QW-FWk" secondAttribute="bottom" constant="54" id="zAz-1o-ukh"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="hX9-xk-TIC"/>
+                    <exclude reference="f1N-co-ouq"/>
+                    <exclude reference="MCa-Kt-eCF"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
     <resources>
-        <image name="Group 561.png" width="1709" height="1575"/>
-        <image name="Group 567.png" width="141" height="136"/>
         <image name="icon.png" width="20" height="20"/>
         <image name="icons-back.png" width="25" height="25"/>
         <image name="icons-menu.png" width="24" height="24"/>
+        <image name="user photo.png" width="153" height="153"/>
     </resources>
 </document>

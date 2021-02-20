@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB5744D625E13C7D004B750A /* Group 589.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5744D425E13C7D004B750A /* Group 589.png */; };
+		AB5744D725E13C7D004B750A /* dreamstime_xxl_100301981.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5744D525E13C7D004B750A /* dreamstime_xxl_100301981.png */; };
+		AB5744DB25E14009004B750A /* Group 585.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5744D825E14009004B750A /* Group 585.png */; };
+		AB5744DC25E14009004B750A /* user photo.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5744D925E14009004B750A /* user photo.png */; };
+		AB5744DD25E14009004B750A /* Group 586.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5744DA25E14009004B750A /* Group 586.png */; };
+		AB5744E025E14514004B750A /* SendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5744DE25E14514004B750A /* SendRequestViewController.swift */; };
+		AB5744E125E14514004B750A /* SendRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5744DF25E14514004B750A /* SendRequestViewController.xib */; };
 		AB9E07DF25DEA86600EB85A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E07DE25DEA86600EB85A7 /* AppDelegate.swift */; };
 		AB9E07E125DEA86600EB85A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E07E025DEA86600EB85A7 /* ViewController.swift */; };
 		AB9E07E425DEA86600EB85A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9E07E225DEA86600EB85A7 /* Main.storyboard */; };
@@ -44,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB5744D425E13C7D004B750A /* Group 589.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 589.png"; path = "Nusahim/Group 589.png"; sourceTree = "<group>"; };
+		AB5744D525E13C7D004B750A /* dreamstime_xxl_100301981.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dreamstime_xxl_100301981.png; path = Nusahim/dreamstime_xxl_100301981.png; sourceTree = "<group>"; };
+		AB5744D825E14009004B750A /* Group 585.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 585.png"; path = "Nusahim/Group 585.png"; sourceTree = "<group>"; };
+		AB5744D925E14009004B750A /* user photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user photo.png"; path = "Nusahim/user photo.png"; sourceTree = "<group>"; };
+		AB5744DA25E14009004B750A /* Group 586.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 586.png"; path = "Nusahim/Group 586.png"; sourceTree = "<group>"; };
+		AB5744DE25E14514004B750A /* SendRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestViewController.swift; sourceTree = "<group>"; };
+		AB5744DF25E14514004B750A /* SendRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendRequestViewController.xib; sourceTree = "<group>"; };
 		AB9E07DB25DEA86600EB85A7 /* Nusahim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nusahim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9E07DE25DEA86600EB85A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB9E07E025DEA86600EB85A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +111,11 @@
 		AB9E07D225DEA86500EB85A7 = {
 			isa = PBXGroup;
 			children = (
+				AB5744D825E14009004B750A /* Group 585.png */,
+				AB5744DA25E14009004B750A /* Group 586.png */,
+				AB5744D925E14009004B750A /* user photo.png */,
+				AB5744D525E13C7D004B750A /* dreamstime_xxl_100301981.png */,
+				AB5744D425E13C7D004B750A /* Group 589.png */,
 				C05D2D0625E004620089F19E /* Group 567.png */,
 				C05D2D0425E004610089F19E /* icon.png */,
 				C05D2D0725E004620089F19E /* icons-back.png */,
@@ -133,6 +152,8 @@
 				C05D2CF925DFF42B0089F19E /* LoginViewController.xib */,
 				C05D2CFC25DFF4440089F19E /* HomeViewController.swift */,
 				C05D2CFD25DFF4440089F19E /* HomeViewController.xib */,
+				AB5744DE25E14514004B750A /* SendRequestViewController.swift */,
+				AB5744DF25E14514004B750A /* SendRequestViewController.xib */,
 			);
 			path = Nusahim;
 			sourceTree = "<group>";
@@ -259,14 +280,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5744DD25E14009004B750A /* Group 586.png in Resources */,
 				C05D2D0925E004620089F19E /* icons-menu.png in Resources */,
 				C05D2D0A25E004620089F19E /* Group 567.png in Resources */,
 				C05D2CFB25DFF42B0089F19E /* LoginViewController.xib in Resources */,
 				C05D2D0125DFF5B80089F19E /* Group 561.png in Resources */,
+				AB5744DC25E14009004B750A /* user photo.png in Resources */,
 				AB9E07E925DEA86900EB85A7 /* LaunchScreen.storyboard in Resources */,
+				AB5744E125E14514004B750A /* SendRequestViewController.xib in Resources */,
 				C05D2CFF25DFF4440089F19E /* HomeViewController.xib in Resources */,
 				C05D2D0825E004620089F19E /* icon.png in Resources */,
+				AB5744D625E13C7D004B750A /* Group 589.png in Resources */,
 				C05D2D0325DFFD730089F19E /* dreamstime_xxl_100301981.jpg in Resources */,
+				AB5744DB25E14009004B750A /* Group 585.png in Resources */,
+				AB5744D725E13C7D004B750A /* dreamstime_xxl_100301981.png in Resources */,
 				AB9E07E625DEA86900EB85A7 /* Assets.xcassets in Resources */,
 				AB9E07E425DEA86600EB85A7 /* Main.storyboard in Resources */,
 				C05D2D0B25E004620089F19E /* icons-back.png in Resources */,
@@ -296,6 +323,7 @@
 			files = (
 				C05D2CFA25DFF42B0089F19E /* LoginViewController.swift in Sources */,
 				AB9E07E125DEA86600EB85A7 /* ViewController.swift in Sources */,
+				AB5744E025E14514004B750A /* SendRequestViewController.swift in Sources */,
 				AB9E07DF25DEA86600EB85A7 /* AppDelegate.swift in Sources */,
 				C05D2CFE25DFF4440089F19E /* HomeViewController.swift in Sources */,
 			);
