@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //----------------------------------------
         loginScreen = LoginViewController()
         navController = UINavigationController(rootViewController: loginScreen!)
-        self.navController!.navigationBar.barTintColor = UIColor.white
-        self.navController!.navigationBar.tintColor = UIColor.white
+        //self.navController!.navigationBar.barTintColor = UIColor.white
+        self.navController!.navigationBar.tintColor = UIColor.black
         //------------------------------------------
         //------------------------------------------
         self.window?.rootViewController = navController!
