@@ -1,5 +1,5 @@
 //
-//  SendRequestViewController.swift
+//  LoadingViewController.swift
 //  Nusahim
 //
 //  Created by SHAHD HAKEEM on 20/02/2021.
@@ -8,22 +8,23 @@
 
 import UIKit
 
-class SendRequestViewController: UIViewController {
-    
-    var navController : UINavigationController?
-    var LoadingVC : LoadingViewController?
+class LoadingViewController: UIViewController {
 
+    var navController : UINavigationController?
+    var volunteerList : volunteerListViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
-         LoadingVC = LoadingViewController()
 
+         volunteerList = volunteerListViewController()
+        
         
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func sendBtn(_ sender: Any) {
+    @IBAction func goNext(_ sender: Any) {
         self.navigationController?.navigationBar.barTintColor = UIColor (red: 247/255, green: 247/255, blue: 250/255, alpha: 1.0)
-        self.navigationController?.navigationBar.backItem?.leftItemsSupplementBackButton = false; self.navigationController!.pushViewController(LoadingVC!, animated: true)
+        self.navigationController?.navigationBar.backItem?.leftItemsSupplementBackButton = false;
+        self.navigationController!.pushViewController(volunteerList!, animated: true)
     }
     
     /*
