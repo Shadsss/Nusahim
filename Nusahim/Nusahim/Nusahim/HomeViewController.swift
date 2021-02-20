@@ -10,11 +10,16 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var navController : UINavigationController?
+    var sendRequest : SendRequestViewController?
     @IBAction func helpBtn(_ sender: Any) {
+        self.navigationController?.navigationBar.barTintColor = UIColor (red: 247/255, green: 247/255, blue: 250/255, alpha: 1.0)
+        self.navigationController?.navigationBar.backItem?.leftItemsSupplementBackButton = false; self.navigationController!.pushViewController(sendRequest!, animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        sendRequest = SendRequestViewController()
         // Do any additional setup after loading the view.
     }
 
