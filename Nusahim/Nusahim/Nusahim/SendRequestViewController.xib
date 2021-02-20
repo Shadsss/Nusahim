@@ -20,29 +20,215 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="هلا وغلا :)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84r-EK-DIs">
-                    <rect key="frame" x="207" y="104" width="187" height="31.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="هلا وغلا :)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84r-EK-DIs">
+                    <rect key="frame" x="207" y="94" width="187" height="32"/>
                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                     <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="كيف أقدر أساعدك؟" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN2-77-Uym">
-                    <rect key="frame" x="184" y="145.5" width="210" height="31.5"/>
+                    <rect key="frame" x="184" y="136" width="210" height="42"/>
                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                     <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="highlightedColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5gI-3p-eVI">
+                    <rect key="frame" x="0.0" y="213" width="424" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نوع المساعدة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Yx-g7-c6b">
+                            <rect key="frame" x="289" y="5" width="105" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOh-wd-1ub">
+                            <rect key="frame" x="273" y="62" width="111" height="33"/>
+                            <color key="backgroundColor" red="0.37038332219999998" green="0.74343961479999998" blue="0.82746642829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="111" id="7Di-1Z-BvG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="طلب توصيل">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="titleShadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YB3-sA-ZSm">
+                            <rect key="frame" x="289" y="151" width="105" height="33"/>
+                            <color key="backgroundColor" red="0.94516235589999997" green="0.94095402959999996" blue="0.95294398069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="105" id="cTo-FW-GWA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="مساعدة طبية">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2Z-di-SpG">
+                            <rect key="frame" x="148" y="105" width="110" height="33"/>
+                            <color key="backgroundColor" red="0.94516235589999997" green="0.94095402959999996" blue="0.95294398069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="110" id="bx2-ex-XYv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="مساعدة تقنية">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4E-7u-5CC">
+                            <rect key="frame" x="44" y="102" width="84" height="33"/>
+                            <color key="backgroundColor" red="0.94516235589999997" green="0.94095402959999996" blue="0.95294398069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="84" id="yEq-9w-w77"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="صيانة منزل">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-rg-idi">
+                            <rect key="frame" x="273" y="105" width="100" height="33"/>
+                            <color key="backgroundColor" red="0.94516235589999997" green="0.94095402959999996" blue="0.95294398069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="VXl-w4-nZm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="رعاية خاصة">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFu-XF-qM7">
+                            <rect key="frame" x="104" y="62" width="57" height="33"/>
+                            <color key="backgroundColor" red="0.94414787873096717" green="0.93958677786753264" blue="0.94870897959440181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="57" id="5Sk-Cf-jVR"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="تعليم">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gD-QF-joU">
+                            <rect key="frame" x="169" y="62" width="96" height="33"/>
+                            <color key="backgroundColor" red="0.94414787873096717" green="0.93958677786753264" blue="0.94870897959440181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="96" id="GBE-fA-dWE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title=" دعم نفسي">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCC-bV-YeZ">
+                            <rect key="frame" x="225" y="151" width="50" height="33"/>
+                            <color key="backgroundColor" red="0.94516235589999997" green="0.94095402959999996" blue="0.95294398069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="TGC-78-dUl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="أخرى">
+                                <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="iFu-XF-qM7" firstAttribute="top" secondItem="5gI-3p-eVI" secondAttribute="top" constant="62" id="0C7-Ix-pyM"/>
+                        <constraint firstItem="sCC-bV-YeZ" firstAttribute="top" secondItem="D2Z-di-SpG" secondAttribute="bottom" constant="13" id="0O6-M8-IFL"/>
+                        <constraint firstItem="iFu-XF-qM7" firstAttribute="leading" secondItem="5gI-3p-eVI" secondAttribute="leading" constant="104" id="3QW-Nx-zKc"/>
+                        <constraint firstItem="sCC-bV-YeZ" firstAttribute="leading" secondItem="5gI-3p-eVI" secondAttribute="leading" constant="225" id="3bx-Vg-mO7"/>
+                        <constraint firstItem="pUQ-rg-idi" firstAttribute="leading" secondItem="D2Z-di-SpG" secondAttribute="trailing" constant="15" id="4Of-C2-uQy"/>
+                        <constraint firstItem="YB3-sA-ZSm" firstAttribute="top" secondItem="pUQ-rg-idi" secondAttribute="bottom" constant="13" id="4e5-rY-OFj"/>
+                        <constraint firstItem="hOh-wd-1ub" firstAttribute="top" secondItem="0Yx-g7-c6b" secondAttribute="bottom" constant="23" id="85G-Sm-aCF"/>
+                        <constraint firstItem="YB3-sA-ZSm" firstAttribute="top" secondItem="pUQ-rg-idi" secondAttribute="bottom" constant="13" id="86h-2x-tsv"/>
+                        <constraint firstAttribute="bottom" secondItem="0Yx-g7-c6b" secondAttribute="bottom" constant="211" id="8eX-Xn-p38"/>
+                        <constraint firstItem="0Yx-g7-c6b" firstAttribute="top" secondItem="5gI-3p-eVI" secondAttribute="top" constant="5" id="AgN-Yq-g07"/>
+                        <constraint firstItem="YB3-sA-ZSm" firstAttribute="leading" secondItem="sCC-bV-YeZ" secondAttribute="trailing" constant="14" id="Aof-Ad-ilh"/>
+                        <constraint firstItem="D2Z-di-SpG" firstAttribute="leading" secondItem="a4E-7u-5CC" secondAttribute="trailing" constant="20" id="Est-qs-gTW"/>
+                        <constraint firstItem="0gD-QF-joU" firstAttribute="leading" secondItem="iFu-XF-qM7" secondAttribute="trailing" constant="8" id="FIr-fG-mUv"/>
+                        <constraint firstItem="pUQ-rg-idi" firstAttribute="leading" secondItem="D2Z-di-SpG" secondAttribute="trailing" constant="15" id="N5n-vU-xck"/>
+                        <constraint firstItem="D2Z-di-SpG" firstAttribute="top" secondItem="0gD-QF-joU" secondAttribute="bottom" constant="10" id="Pmu-JW-LST"/>
+                        <constraint firstItem="hOh-wd-1ub" firstAttribute="leading" secondItem="0gD-QF-joU" secondAttribute="trailing" constant="8" id="ScA-fh-yZE"/>
+                        <constraint firstItem="D2Z-di-SpG" firstAttribute="top" secondItem="0gD-QF-joU" secondAttribute="bottom" constant="10" id="Szn-ka-RJS"/>
+                        <constraint firstItem="pUQ-rg-idi" firstAttribute="top" secondItem="hOh-wd-1ub" secondAttribute="bottom" constant="10" id="TrW-mk-X0n"/>
+                        <constraint firstItem="a4E-7u-5CC" firstAttribute="top" secondItem="iFu-XF-qM7" secondAttribute="bottom" constant="7" id="WDs-Tk-HSS"/>
+                        <constraint firstItem="0gD-QF-joU" firstAttribute="top" secondItem="5gI-3p-eVI" secondAttribute="top" constant="62" id="Xrv-fV-PFj"/>
+                        <constraint firstAttribute="trailing" secondItem="0Yx-g7-c6b" secondAttribute="trailing" constant="30" id="Yhg-I4-Cg1"/>
+                        <constraint firstItem="0gD-QF-joU" firstAttribute="leading" secondItem="iFu-XF-qM7" secondAttribute="trailing" constant="8" id="cMu-YS-VUL"/>
+                        <constraint firstItem="sCC-bV-YeZ" firstAttribute="top" secondItem="D2Z-di-SpG" secondAttribute="bottom" constant="13" id="fPa-PS-eLn"/>
+                        <constraint firstItem="a4E-7u-5CC" firstAttribute="leading" secondItem="5gI-3p-eVI" secondAttribute="leading" constant="44" id="gDs-I8-AXa"/>
+                        <constraint firstAttribute="trailing" secondItem="YB3-sA-ZSm" secondAttribute="trailing" constant="30" id="gam-gY-qGx"/>
+                        <constraint firstItem="YB3-sA-ZSm" firstAttribute="leading" secondItem="sCC-bV-YeZ" secondAttribute="trailing" constant="14" id="msk-nf-tHE"/>
+                        <constraint firstItem="pUQ-rg-idi" firstAttribute="top" secondItem="hOh-wd-1ub" secondAttribute="bottom" constant="10" id="s0m-Cs-m5n"/>
+                        <constraint firstItem="a4E-7u-5CC" firstAttribute="top" secondItem="iFu-XF-qM7" secondAttribute="bottom" constant="7" id="u91-r5-M1c"/>
+                        <constraint firstItem="hOh-wd-1ub" firstAttribute="leading" secondItem="0gD-QF-joU" secondAttribute="trailing" constant="8" id="ucF-rl-HpE"/>
+                        <constraint firstAttribute="height" constant="250" id="zpI-1S-6Ff"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AMA-OL-Cwm">
+                    <rect key="frame" x="0.0" y="463" width="414" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="وصف المساعدة المطلوبة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njG-ZM-c9K">
+                            <rect key="frame" x="204" y="0.0" width="190" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="f5c-tY-6mN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="مثال:  أحتاج الى نقل كذا..." textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="jNP-xL-dgR">
+                            <rect key="frame" x="44" y="44" width="350" height="158"/>
+                            <color key="backgroundColor" red="0.96462715344551286" green="0.96462715344551286" blue="0.96462715344551286" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="350" id="U2o-l5-yVP"/>
+                            </constraints>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="jNP-xL-dgR" secondAttribute="trailing" constant="20" id="5Yi-E0-Vfm"/>
+                        <constraint firstAttribute="height" constant="250" id="CWs-Ym-E3v"/>
+                        <constraint firstItem="njG-ZM-c9K" firstAttribute="top" secondItem="AMA-OL-Cwm" secondAttribute="top" id="Dh6-ZU-VlA"/>
+                        <constraint firstItem="jNP-xL-dgR" firstAttribute="top" secondItem="njG-ZM-c9K" secondAttribute="bottom" constant="10" id="S4F-FU-viA"/>
+                        <constraint firstAttribute="trailing" secondItem="njG-ZM-c9K" secondAttribute="trailing" constant="20" id="gCi-1x-meC"/>
+                        <constraint firstAttribute="bottom" secondItem="jNP-xL-dgR" secondAttribute="bottom" constant="48" id="viJ-yT-Gdv"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V38-QR-cAU">
+                    <rect key="frame" x="-3" y="811" width="420" height="51"/>
+                    <color key="backgroundColor" red="0.37038332219999998" green="0.74343961479999998" blue="0.82746642829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="3Yi-wS-d0b"/>
+                        <constraint firstAttribute="width" constant="420" id="GOG-YW-NsU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <state key="normal" title="إرسال الطلب">
+                        <color key="titleColor" red="0.99611777069999996" green="0.99997395280000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="84r-EK-DIs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="1Q6-8s-cbC"/>
+                <constraint firstItem="84r-EK-DIs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="1Q6-8s-cbC"/>
+                <constraint firstItem="5gI-3p-eVI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2B9-DA-xVi"/>
+                <constraint firstAttribute="trailing" secondItem="AMA-OL-Cwm" secondAttribute="trailing" id="7Uz-Lr-E2a"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TN2-77-Uym" secondAttribute="trailing" constant="20" id="8mO-dv-Zar"/>
+                <constraint firstItem="AMA-OL-Cwm" firstAttribute="top" secondItem="5gI-3p-eVI" secondAttribute="bottom" id="9bK-hi-9rn"/>
+                <constraint firstItem="V38-QR-cAU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XBd-59-7tE"/>
                 <constraint firstItem="TN2-77-Uym" firstAttribute="top" secondItem="84r-EK-DIs" secondAttribute="bottom" constant="10" id="ZuT-V2-kiW"/>
+                <constraint firstItem="V38-QR-cAU" firstAttribute="top" secondItem="AMA-OL-Cwm" secondAttribute="bottom" constant="98" id="as3-XS-edE"/>
+                <constraint firstItem="AMA-OL-Cwm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jrx-CX-LNC"/>
                 <constraint firstItem="TN2-77-Uym" firstAttribute="top" secondItem="84r-EK-DIs" secondAttribute="bottom" constant="10" id="lK4-GG-TIg"/>
                 <constraint firstItem="TN2-77-Uym" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="184" id="ncK-FR-K8W"/>
                 <constraint firstItem="84r-EK-DIs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="207" id="pN4-5Y-VCg"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="84r-EK-DIs" secondAttribute="trailing" constant="20" id="pYu-ag-J45"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="TN2-77-Uym" secondAttribute="bottom" constant="685" id="taG-kW-Gaq"/>
+                <constraint firstItem="5gI-3p-eVI" firstAttribute="top" secondItem="TN2-77-Uym" secondAttribute="bottom" constant="35" id="qEA-2f-Zia"/>
+                <constraint firstItem="V38-QR-cAU" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="wx4-6q-3nK"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
